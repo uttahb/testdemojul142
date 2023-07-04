@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/testdemojul142.git",
+    "ssh": "git@github.com:uttahb/testdemojul142.git",
+    "branch": "block_addTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "addTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "q2ijt1DEz8Km2lV1biWCr",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "0cZQU-L6tpTYzvkUtHe9X"
+  ]
+}
